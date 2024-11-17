@@ -1,0 +1,188 @@
+.login {
+    background-color: #FFFFFF;
+}
+
+#loginform {
+    background-color: #666666;
+    border: none;
+    /*-webkit-box-shadow: 0 0 10px 0 #f1f1f1;
+    box-shadow: 0 0 20px 5px #f1f1f1;*/
+}
+
+.login label {
+    color: #FFFFFF;
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    border: solid 1px #666666;
+}
+
+.login form {
+    padding: 30px 30px 45px 30px;
+}
+
+#login h1 a {
+    padding: 0;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+#login h1 a:hover {
+    background-color: #666666;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.wp-core-ui .button-primary, .login #backtoblog a {
+    border: none;
+    background-color: #A1C434;
+    color: #FFFFFF;
+    text-shadow: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    transition-duration: .2s;
+    text-transform: uppercase;
+    padding: 15px !important;
+    height: auto !important;
+    line-height: normal !important;
+}
+
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary:active,
+.wp-core-ui .button-primary:focus {
+    background-color: #939598;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.login #login_error, .login .message, .login .success {
+    background-color: #666666;
+    border: none;
+    /*-webkit-box-shadow: 0 0 10px 0 #f1f1f1;
+    box-shadow: 0 0 20px 5px #f1f1f1;*/
+    color: #FFFFFF;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+    color: #57a631;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+#nav {
+    display: none;
+}
+
+.login #backtoblog {
+    padding: 0;
+}
+
+.login #backtoblog a {
+    width: calc(100% - 30px);
+    display: block;
+    text-align: center;
+}
+
+.login #backtoblog a:hover {
+    background: #939598;
+    color: #FFFFFF;
+}
+
+/*@font-face {
+font-family: "Futura";
+src: url(../fonts/futura_md_bt.ttf);
+}
+
+@font-face {
+font-family: "FuturaLt";
+src: url(../fonts/futura_lt_bt.ttf);
+}
+
+*, .login label, .login #backtoblog a, .login #nav a {
+color: #FFF;
+font-family: "FuturaLt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+max-width: 100%;
+}
+
+#wp-submit {
+background: #008ba0;
+-webkit-box-shadow: none;
+box-shadow: none;
+text-shadow: none;
+border: none;
+border-radius: 0;
+color: #FFF;
+line-height: 40px;
+background-color: #008ba0;
+color: #fff;
+-webkit-transition: all .2s ease-out;
+transition: all .2s ease-out;
+border: none;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+font-size: 14px;
+padding: 0 20px;
+margin-top: 20px;
+height: 40px;
+width: 100%;
+}
+
+#wp-submit:hover {
+background-color: #00b4cb;
+}
+
+.login form {
+padding: 30px;
+}
+
+.login #login_error, .login .message, .login .success, .login form {
+-webkit-box-shadow: none;
+box-shadow: none;
+border: none;
+border: solid 1px #008ba0;
+background-color: #434748;
+}
+
+.login .button-primary {
+float: none;
+}
+
+.login {
+background-image: url("http://avp-communications.com/web_templates/le_silo_bleu_v2/wp-content/uploads/2018/07/silo-bleu-main.jpg");
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+background-color: #343839;
+
+padding: 0;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+height: 580px;
+}
+
+#login {
+padding: 60px;
+background-color: rgba(52, 56, 57, 0.85);
+border: solid 1px #008ba0;
+width: 400px;
+}
+
+#backtoblog {
+margin-bottom: 0;
+}
+*/

@@ -1,0 +1,89 @@
+:root {
+  --color-white: #ffffff;
+  --color-dark: #111216;
+  --color-dark-10: #222326;
+  --color-dark-20: #2c2e36;
+  --color-dark-30: #44454a;
+  --color-primary: #2aace3;
+  --color-primary-30: rgba(43, 172, 227, 0.3);
+  --color-secondary: #2185b0;
+  --color-error: #eb0165;
+  --color-success: #9ee18e;
+  --color-shadow: rgba(80, 80, 80, 0.7);
+}
+
+.dark-mode * {
+  color: var(--color-white);
+}
+
+.dark-mode h1 {
+  color: var(--color-white);
+}
+
+body.dark-mode,
+.dark-mode section,
+.dark-mode header,
+.dark-mode #intro::before,
+.dark-mode #intro::after {
+  background-color: var(--color-dark);
+}
+
+.dark-mode .separator::before,
+.dark-mode .separator::after {
+  background-color: var(--color-white);
+}
+
+.dark-mode .separator::after {
+  box-shadow: 0 0 0 10px var(--color-dark);
+}
+
+.dark-mode .frame {
+  border-radius: 10px;
+  background-color: var(--color-primary-30);
+}
+
+.dark-mode #intro {
+  background-color: var(--color-dark);
+}
+
+.dark-mode .logo .logo-light {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dark-mode .logo .logo-dark {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dark-mode .icons .icon::after {
+  box-shadow: 0 0 25px 8px var(--color-shadow) inset;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  border-color: var(--color-dark-20);
+  background-color: var(--color-dark);
+}
+
+.dark-mode .form-error__alert {
+  background-color: var(--color-dark);
+}
+
+.dark-mode .form-error__alert::before {
+  box-shadow: 3px -3px 0 3px var(--color-dark);
+}
+
+.dark-mode .form-error__alert::after {
+  box-shadow: -3px -3px 0 3px var(--color-dark);
+}
+
+.dark-mode .form-error {
+    border-color: var(--color-error);
+}
+
+@media only screen and (max-width: 1024px) {
+  .dark-mode nav {
+    background-color: var(--color-shadow);
+  }
+}

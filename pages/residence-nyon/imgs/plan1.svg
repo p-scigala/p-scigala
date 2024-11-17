@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920px"
+     height="1080px" viewBox="0 0 1920 1080" enable-background="new 0 0 1920 1080" xml:space="preserve">
+    <g>
+        <image overflow="visible" width="1920" height="1080" xlink:href="http://p-scigala.pl/pages/residence-nyon/imgs/plan1.jpg" >
+        </image>
+    </g>
+    <g>
+        <polygon id="a-2" class="appartement" points="1312.5,482 1312.5,358 1273.5,358 1273.5,85.5 1102,85.5 1102,163.5 1011.5,163.5 1011.5,482"/>
+        <polygon id="a-3" class="appartement" points="1011.5,163.5 624,163.5 624,307.5 586.5,307.5 586.5,516.5 845,516.5 845,482 1011.5,482"/>
+        <polygon id="a-4" class="appartement" points="586.5,516.5 586.5,724 624,724 624,994 796.667,994 796.667,930 891.333,930 891.333,586 845,586 845,516.5"/>
+        <polygon id="a-5" class="appartement" points="1311.332,559.333 1107.332,559.333 1107.332,565.333 1052.666,565.333 1052.666,586.667 1006.666,586.667 1006.666,626 890.666,626 890.666,930.667 1272.666,930.667 1272.666,773.333 1311.332,773.333"/>
+    </g>
+</svg>
